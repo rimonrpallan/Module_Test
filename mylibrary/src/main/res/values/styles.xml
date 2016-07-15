@@ -1,0 +1,443 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/theme.app.dark</item>
+
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">@color/theme.app.Light</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/theme.app.Light</item>
+
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/theme.app.Light</item>
+
+        <!-- <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item> -->
+
+        <!-- <item name="android:editTextStyle">@style/EditTextStyle</item> -->
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:displayOptions">showHome|useLogo</item>
+        <item name="android:titleTextStyle">@style/MyActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="MyActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+
+        <!-- Used for the bottom line when not selected / focused -->
+        <item name="colorControlNormal">@color/Matted.App.Light</item>
+        <!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
+    </style>
+
+
+    <!--<style name="YourAnimation.Activity" parent="@android:style/Animation.Activity">-->
+        <!--<item name="android:windowEnterAnimation">@anim/slide_in_left</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/slide_out_left</item>-->
+    <!--</style>-->
+
+    <!-- spinner style -->
+
+    <style name="SpinnerAsEditText" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@android:drawable/edit_text</item>
+    </style>
+
+    <!-- activity themes -->
+
+    <style name="AppThemeCareer" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/theme.career.Light</item>
+
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">@color/theme.career.dark</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/theme.career.dark</item>
+
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/theme.career.dark</item>
+
+        <!-- <item name="android:background">@color/layout_background_color</item> -->
+        <!-- <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item> -->
+        <!-- <item name="android:editTextStyle">@style/EditTextStyle</item> -->
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RobotoAutoCompleteTextViewStyle</item>
+        <item name="android:radioButtonStyle">@style/RobotoRadioButtonStyle</item>
+
+    </style>
+
+    <style name="AppThemeInvestor" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/theme.investor.Light</item>
+
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">@color/theme.investor.dark</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/theme.investor.dark</item>
+
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/theme.investor.dark</item>
+
+
+        <!-- <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item> -->
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RobotoAutoCompleteTextViewStyle</item>
+        <item name="android:radioButtonStyle">@style/RobotoRadioButtonStyle</item>
+    </style>
+
+    <style name="AppThemeInvest" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/theme.invest.Light</item>
+
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">@color/theme.invest.dark</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/theme.invest.dark</item>
+
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/theme.invest.dark</item>
+
+        <!-- <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item> -->
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RobotoAutoCompleteTextViewStyle</item>
+        <item name="android:radioButtonStyle">@style/RobotoRadioButtonStyle</item>
+
+    </style>
+
+    <style name="AppThemeBusinessPartner" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/theme.business.Light</item>
+
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">@color/theme.business.dark</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/theme.business.dark</item>
+
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/theme.business.dark</item>
+
+
+        <!-- <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item> -->
+        <!-- <item name="android:editTextStyle">@style/EditTextStyle</item> -->
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RobotoAutoCompleteTextViewStyle</item>
+        <item name="android:radioButtonStyle">@style/RobotoRadioButtonStyle</item>
+    </style>
+
+    <style name="AppThemeHire" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/theme.hire.Light</item>
+
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">@color/theme.hire.dark</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/theme.hire.dark</item>
+
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/theme.hire.dark</item>
+
+
+        <!-- <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item> -->
+        <!-- <item name="android:editTextStyle">@style/EditTextStyle</item> -->
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RobotoAutoCompleteTextViewStyle</item>
+        <item name="android:radioButtonStyle">@style/RobotoRadioButtonStyle</item>
+    </style>
+
+    <style name="AppThemeProfile" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/theme.profile.Light</item>
+
+        <!-- your app branding color for the app bar -->
+        <item name="colorPrimary">@color/theme.profile.dark</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/theme.profile.dark</item>
+
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/theme.profile.dark</item>
+
+
+        <!-- <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item> -->
+        <!-- <item name="android:editTextStyle">@style/EditTextStyle</item> -->
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RobotoAutoCompleteTextViewStyle</item>
+        <item name="android:radioButtonStyle">@style/RobotoRadioButtonStyle</item>
+    </style>
+
+
+    <style name="AppThemeDiscoverActivity" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--Discover_search_edittext-->
+        <item name="android:editTextStyle">@style/DiscoverActivity_Search_Edittext</item>
+      <!--  <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/theme.career.Light</item>
+
+        &lt;!&ndash; your app branding color for the app bar &ndash;&gt;
+        <item name="colorPrimary">@color/theme.career.dark</item>
+        &lt;!&ndash; theme UI controls like checkboxes and text fields &ndash;&gt;
+        <item name="colorAccent">@color/theme.career.dark</item>
+
+        &lt;!&ndash; darker variant for the status bar and contextual app bars &ndash;&gt;
+        <item name="android:colorPrimaryDark">@color/theme.career.dark</item>
+
+        &lt;!&ndash; <item name="android:background">@color/layout_background_color</item> &ndash;&gt;
+        &lt;!&ndash; <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item> &ndash;&gt;
+        &lt;!&ndash; <item name="android:editTextStyle">@style/EditTextStyle</item> &ndash;&gt;
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditTextStyle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RobotoAutoCompleteTextViewStyle</item>
+        <item name="android:radioButtonStyle">@style/RobotoRadioButtonStyle</item>-->
+
+    </style>
+
+
+    <!--<style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">-->
+        <!--<item name="android:textSize">@dimen/textview_text_size_small</item>-->
+        <!--<item name="android:fontFamily">sans-serif-light</item>-->
+        <!--<item name="android:textStyle">normal</item>-->
+        <!--<item name="android:textColor">@color/edit_field_color</item>-->
+    <!--</style>-->
+
+    <!--<style name="ToolbarTitleCareer" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">-->
+        <!--<item name="android:textSize">@dimen/textview_text_size_normal</item>-->
+        <!--<item name="android:textStyle">normal</item>-->
+        <!--<item name="android:fontFamily">sans-serif-condensed</item>-->
+        <!--<item name="android:gravity">center_horizontal</item>-->
+        <!--<item name="android:textColor">#FFFFFF</item>-->
+    <!--</style>-->
+
+    <!--<style name="spinner_style">-->
+        <!--<item name="android:background">@drawable/spinner_background</item>-->
+    <!--</style>-->
+
+    <!-- sans-serif-condensed -->
+
+    <!-- serif-monospace -->  <!-- helvetica -->
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoAutoCompleteTextViewStyle" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoRadioButtonStyle" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+
+    <!--Added from Discover!-->
+
+    <style name="DiscoverActivity_Search_Edittext" parent="android:Widget.EditText">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="colorControlNormal">@color/Black</item>
+        <item name="colorAccent">@color/Black</item>
+    </style>
+
+
+
+
+    <!--Navigation_Drawer_View_divider_line-->
+
+    <style name="Navigation_View_Divider_Line">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:color">#EEE</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#EEE</item>
+    </style>
+    <!--End of Navigation Drawer-->
+
+    <style name="dividerHorizontalDiscoverSearch">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:color">#000</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#f8eb32</item>
+    </style>
+    <!--End of Navigation Drawer-->
+
+    <style name="Discover_underline">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:color">@color/discover_toolbarHighlightedText</item>
+        <item name="android:layout_height">2.5dp</item>
+        <item name="android:background">#EEE</item>
+    </style>
+
+    <style name="Chat_underline">
+        <item name="android:layout_width">38dp</item>
+        <item name="android:color">@color/Chat_ToolbarText</item>
+        <item name="android:layout_height">2.5dp</item>
+        <item name="android:background">@color/Chat_ToolbarText</item>
+    </style>
+
+    <style name="AppTheme.new" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:statusBarColor">#008200</item>-->
+    </style>
+
+    <style name="AppTheme.disc_preview_business_partner" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:statusBarColor">#3399CC</item>-->
+
+    </style>
+
+    <style name="AppTheme.disc_preview_career" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:statusBarColor">#FA5722</item>-->
+
+    </style>
+
+    <style name="AppTheme.disc_preview_job" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">@color/Black</item>
+
+        <!--<item name="android:statusBarColor">#904AEA</item>-->
+
+    </style>
+
+    <style name="AppTheme.disc_preview_invest" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:statusBarColor">#44C62C</item>-->
+
+    </style>
+
+    <style name="AppTheme.disc_preview_investor" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:statusBarColor">#F2B200</item>-->
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <!--End of Discover!-->
+
+    <style name="AppTheme_Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:windowBackground">@color/White.Transparent</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@color/Transparent</item>
+        <item name="android:bottomDark">@color/Transparent</item>
+        <item name="android:bottomMedium">@color/Transparent</item>
+        <item name="android:centerBright">@color/Transparent</item>
+        <item name="android:centerDark">@color/Transparent</item>
+        <item name="android:centerMedium">@color/Transparent</item>
+        <item name="android:fullBright">@color/Transparent</item>
+        <item name="android:fullDark">@color/Transparent</item>
+        <item name="android:topBright">@color/Transparent</item>
+        <item name="android:topDark">@color/Transparent</item>
+    </style>
+
+
+    <style name="dialog_light" parent="@android:style/Theme.Dialog">
+        <item name="@android:windowBackground">@color/Transparent</item>
+        <item name="@android:textColor">@color/Transparent</item>
+    </style>
+
+
+    <!--this is for the styles of  AutoMultiComplete in Discovery_Search-->
+    <style name="MyTheme">
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+    </style>
+
+    <style name="DropDownListViewStyle">
+        <item name="android:divider">#4F4F4F</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DiscoverFilter_divider">
+        <item name="android:layout_width">1000dp</item>
+        <item name="android:color">#9d9d9d</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#9d9d9d</item>
+    </style>
+
+
+</resources>

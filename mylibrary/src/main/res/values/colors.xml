@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 Freddie (Musenkishi) Lust-Hed
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <color name="primary_material_light">@color/material_grey_100</color>
+
+
+    <color name="Transparent">#00ffffff</color>
+    <color name="Transparent.Almost">#11000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="White.Transparent">#99FFFFFF</color>
+    <color name="Grey">#ccc</color>
+    <color name="Grey.Dark">#aaa</color>
+    <color name="Grey.Light">#eee</color>
+    <color name="Grey.Transparent">#cccc</color>
+    <color name="Grey.Transparent.Shadow">#4ccc</color>
+    <color name="Black">#000</color>
+    <color name="Black.Light.Transparent">#c333</color>
+    <color name="Black.Light">#333</color>
+    <color name="Black.Transparent">#cc000000</color>
+    <color name="Black.Transparent.Extra">#88000000</color>
+    <color name="Black.Transparent.Shadow">#3000</color>
+    <color name="BlueGrey.Transparent">#cc263238</color>
+    <color name="Blue.Dark.Transparent">#cc2a36b1</color>
+    <color name="Red.Dark.Transparent">#ccb0120a</color>
+    <color name="Purple.Dark.Transparent">#cc47228c</color>
+    <color name="Orange.Dark.Transparent">#ccd84315</color>
+
+    <color name="Orange.Dark">#d84315</color>
+    <color name="BlueGrey">#263238</color>
+    <color name="Blue.Dark">#2a36b1</color>
+    <color name="Red.Dark">#b0120a</color>
+
+    <color name="Red.Dark.Light">#bc3e38</color>
+    <color name="Blue.Dark.Light">#515bbd</color>
+    <color name="Orange.Dark.Light">#dc6540</color>
+    <color name="BlueGrey.Light">#4e585c</color>
+
+    <color name="Matted.Orange">#bd612f</color>
+    <color name="Matted.Blue">#3e4f5c</color>
+    <color name="Matted.Violet">#4b559f</color>
+    <color name="Matted.Red">#9f342f</color>
+    <color name="Matted.Green">#ff41813b</color>
+    <color name="Matted.App">#B977FF</color>
+
+    <color name="Matted.Blue.Light">#586876</color>
+    <color name="Matted.App.Light">#D0A4FF</color>
+
+    <color name="Holo.Red.Light">#FF4444</color>
+    <color name="Holo.Red.Dark">#CC0000</color>
+    <color name="Holo.Yellow.Light">#FFBB33</color>
+    <color name="Holo.Yellow.Dark">#FF8800</color>
+    <color name="Holo.Green.Light">#99CC00</color>
+    <color name="Holo.Green.Dark">#669900</color>
+    <color name="Holo.Purple.Light">#AA66CC</color>
+    <color name="Holo.Purple.Dark">#9933CC</color>
+    <color name="Holo.Blue.Light">#33B5E5</color>
+    <color name="Holo.Blue.Dark">#0099CC</color>
+    
+    <color name="Material.Blue.500">#03a9f4</color>
+
+    <color name="Pressed.Default">#5ccc</color>
+    <color name="Focused.Default">#5fff</color>
+
+    <color name="Window.Background">@color/Black.Light</color>
+    <color name="Thumb.Background">@color/BlueGrey.Light</color>
+    <color name="Thumb.Text">@color/Grey.Dark</color>
+    <color name="Actionbar.Background">@color/Matted.App</color>
+    <color name="Actionbar.TopList.Background">@color/Matted.Blue</color>
+    <color name="Actionbar.Search.Background">@color/Matted.Violet</color>
+    <color name="Actionbar.Random.Background">@color/Matted.Orange</color>
+    <color name="Actionbar.Saved.Background">@color/Red.Dark.Light</color>
+    <color name="Actionbar.Latest.Background">@color/Matted.Green</color>
+    <color name="Filter.Section.Title">#78909c</color>
+    <color name="Dialog.Button.Positive">#78909c</color>
+    <color name="Dialog.Button.Negative">@color/Black.Light</color>
+    <color name="Dialog.Button.Delete">#e51c23</color>
+    
+    <!-- activity style colors -->
+    <color name="layout_background_color">#F0F5F7</color>
+    <color name="button_disabled">#C6C6C6</color>
+    <color name="button_disabled_text">#9E9E9E</color>
+    
+    <color name="edit_field_color">#3c3c3c</color>
+    <color name="text_field_color">#999999</color>
+    <color name="hint_color">#666666</color>
+
+    
+    <color name="theme.app.dark">#191919</color>
+    <color name="theme.app.Light">#EBEBEB</color>
+    
+    <color name="theme.career.dark">#FA5722</color>
+    <color name="theme.career.Light">#FC9A7A</color>
+    
+    <color name="theme.investor.dark">#F2B200</color>
+    <color name="theme.investor.Light">#F6C94D</color>
+    
+    <color name="theme.invest.dark">#44C62C</color>
+    <color name="theme.invest.Light">#B4E8AB</color>
+    
+    <color name="theme.business.dark">#3399CC</color>
+    <color name="theme.business.Light">#99CCE6</color>
+    
+    <color name="theme.hire.dark">#BA77FF</color>
+    <color name="theme.hire.Light">#D4AAFF</color>
+    <color name="organization_name_background">#CCCCCC</color>
+    
+    <color name="theme.profile.dark">#000000</color>
+    <color name="theme.profile.Light">#333333</color>
+
+        <color name="job_type_button_default_background_color">#CCCCCC</color>
+        <color name="job_type_button_default_text_color">#6b6b6b</color>
+
+    <!--
+    Career Landing Page Color scheme
+    -->
+    <color name="this_is_me">#676767</color>
+    <color name="career_labels">#999999</color>
+    <color name="career_et_text_color">#3c3c3c</color>
+    <color name="test">#3c3c3c</color>
+    <color name="organization_name">#3d3d3d</color>
+
+
+    <!--New Discover colors-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="discover_card_color">#FFFFFF</color>
+    <color name="discover_card_title">#000000</color>
+
+    <color name="disc_layout_highlighted">#424242</color>
+    <color name="disc_close_highlighted">#20000000</color>
+    <color name="disc_layout_not_highlighted">#00000000</color>
+
+    <color name="chat_layout_highlighted">#C1B227</color>
+    <color name="chat_layout_not_highlighted">#00000000</color>
+
+    <color name="disc_prev_layout_highlighted">#42FFFFFF</color>
+    <color name="disc_prev_layout_not_highlighted">#00000000</color>
+
+    <color name="discover_selectToolbar">#666666</color>
+
+    <color name="discover_toolbarHighlightedText">#FFFFFF</color>
+    <color name="discover_toolbarText">#666666</color>
+
+    <color name="Chat_Toolbar">#F9EC31</color>
+    <color name="Chat_ToolbarHighlightedText">#C1B227</color>
+    <color name="Chat_ToolbarText">#000000</color>
+    <color name="Chat_Tabs">#000000</color>
+
+    <color name="filter_button_selected">#F9EC31</color>
+    <color name="filter_toolbar">#000000</color>
+    <color name="filter_toolbarText">#666666</color>
+    <color name="filter_colorScrollView">#F2F2F2</color>
+    <color name="filter_colorHorizontalScrollView">#FFFFFF</color>
+
+    <color name="Fav_tab">#F9EC31</color>
+    <color name="Fav_tab_text">#000000</color>
+    <color name="in_touch_text2">#585858</color>
+
+    <!--Discover swipe Category Colors-->
+    <color name="business_partner_color">#3399CC</color>
+    <color name="career_indicator_color">#FA5722</color>
+    <color name="hire_indicator_color">#904AEA</color>
+    <color name="invest_indicator_color">#44C62C</color>
+    <color name="investor_indicator_color">#F2B200</color>
+
+    <!--Discover Preview colors-->
+    <color name="preview_business_partner_color">#20B5EF</color>
+    <color name="preview_career_color">#FA5722</color>
+    <color name="preview_hire_color">#ba77ff</color>
+    <color name="preview_invest_color">#44C62C</color>
+    <color name="preview_investor_color">#F2B200</color>
+    <!--End of Discovery colors-->
+
+    <!-- Discover Filters colors -->
+    <color name="filter_button_background_color">#F9EC31</color>
+    <color name="filter_textview_text_color">#6f6f6f</color>
+    <!-- End of Discover Filters colors -->
+
+             <!--Range SeekBar Colors-->
+    <color name="rounded_container_bg">#222222</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#646663</color>
+
+            <!--End-->
+
+
+
+
+
+</resources>
